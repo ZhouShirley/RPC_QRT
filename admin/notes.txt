@@ -1,0 +1,4 @@
+1. add a datepicker in index.php. not able to write to db
+
+
+2. index line 133. hard code leader id, how to get from "user" select box?

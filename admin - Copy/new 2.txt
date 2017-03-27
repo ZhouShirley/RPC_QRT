@@ -1,0 +1,7 @@
+datepicker issue - done
+total score  -done
+get recent 4 months records from sql
+vertical-align: middle
+how to integrate with other 2 forms
+
+change Effective_Date from Datetime to varchar (200)

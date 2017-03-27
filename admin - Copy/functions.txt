@@ -1,0 +1,1 @@
+1. search pannel only returns records later than last 4 months. others are not retrievable

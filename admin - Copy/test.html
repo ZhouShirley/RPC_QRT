@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Accordion test</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready( function() {
+				
+				// initialize accordion
+				$('#Accordion ul').each( function() {
+					var currentURI = window.location.href;
+					var links = $('a', this);
+					var collapse = true;
+					for (var i = 0; i < links.size(); i++) {
+						var elem = links.eq(i);
+						var href = elem.attr('href');
+						var hrefLength = href.length;
+						var compareTo = currentURI.substr(-1*hrefLength);
+						
+						if (href == compareTo) {
+							collapse = false;
+							break;
+						}
+					};
+					if (collapse) {
+						$(this).hide();
+					}
+				});
+				
+				// on click, show this element and hide all others
+				$('#Accordion > li').click( function() {
+					var me = $(this).children('ul');
+					$('#Accordion ul').not(me).slideUp();
+					me.slideDown();
+				});
+			});
+		</script>
+</html>
+<body>
+	<div id="Accordion">
+		<li>PEOPLE
+			<ul>
+				<li><strong>+</strong> <a href="index.php?show=philip&tiffany">PHILIP & TIFFANY</a></li>
+				<li><strong>+</strong> <a href="index.php?show=heindo">HEINDO</a></li>            
+				<li><strong>+</strong> <a href="index.php?show=juan">JUAN</a></li>
+				<li><strong>+</strong> <a href="index.php?show=bettina">BETTINA</a></li>
+				<li><strong>+</strong> <a href="index.php?show=adam">ADAM</a></li>
+				<li><strong>+</strong> <a href="index.php?show=hazel">HAZEL</a></li>
+				<li><strong>+</strong> <a href="index.php?show=ashton">ASHTON</a></li>
+				<li><strong>+</strong> <a href="index.php?show=martina">MARTINA</a></li>
+				<li><strong>+</strong> <a href="index.php?show=ava">AVA</a></li>
+				<li><strong>+</strong> <a href="index.php?show=michelle">MICHELLE</a></li>
+				<li><strong>+</strong> <a href="index.php?show=red">RED</a></li>
+				<li><strong>+</strong> <a href="index.php?show=erin">ERIN</a></li>
+				<li><strong>+</strong> <a href="index.php?show=scotty">SCOTTY</a></li>
+			</ul>
+		</li>
+		<li>
+			EVENTS
+			<ul>
+				<li><strong>+</strong> <a href="#">COMING SOON</a></li>
+			</ul>
+		</li>
+		<li>
+			LANDSCAPES
+			<ul>
+				<li><strong>+</strong> <a href="#">COMING SOON</a></li>
+			</ul>
+		</li>
+		<li>
+			INFO
+			<ul>
+				<li><strong>+</strong> <a href="#">COMING SOON</a></li>
+			</ul>
+		</li>
+	</div>
+</body>
+</html>

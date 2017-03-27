@@ -1,0 +1,598 @@
+<form action="index.php" method="POST" role="form">
+				<div id="form-content">
+				<div class="section">
+					<h2 class="form-group" for="title">Title</h2>
+					<input class="form-control" type="text" name="title" value="Coaching SHZ by NKB on 12/06/2016" placeholder="" readonly="">
+				
+				
+					
+									
+				<div class="section">
+					<h2 class="form-group" for="leader">Leader</h2>
+					<input class="form-control" type="text" name="leader" value="NKB" placeholder="" readonly="">
+				 </div>
+							
+				<div class="section">
+					<h2 class="form-group" for="employee">Employee</h2>
+				</div>	
+					<select class="form-control" name="employee" id="employee" disabled="disabled">
+				    	<option value="0"> Please Select</option>
+				    
+				    								<option value="ABH">Andrew, Hamilton </option>
+													<option value="GBV">Gobii, Vivagananda </option>
+													<option value="KIS">Kirill, Savine </option>
+													<option value="MGE">Mark, Gemmell </option>
+													<option value="MTW">Matt, Williams </option>
+													<option value="SNR">Sayeemin, Rahman </option>
+													<option value="SHZ" selected="">Shirley, Zhou </option>
+													<option value="TAG">Tamara, Gogiberidze </option>
+						  	
+				    	
+				    </select>
+				 			
+				
+				    
+				   
+				
+										
+				
+				<!-- Include Bootstrap Datepicker -->
+				<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css">
+				<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css">
+				<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+
+				
+				 <div id="eventForm" class="section">
+			        <h2 for="date">Coaching Time</h2>
+			            <div class="input-group input-append date form_datetime" id="datePicker" disabled="disabled">
+			                <input type="text" class="form-control" name="date" readonly="">
+			                <span class="input-group-addon add-on"><span class="glyphicon glyphicon-calendar"></span></span>
+			            </div>
+				</div>
+			      
+   				</div>
+				
+   				 <script>
+					$(document).ready(function() {
+					    $('#datePicker')
+					        .datepicker({
+					            format: 'mm/dd/yyyy - HH:MM'
+					            
+					        })
+					        ;
+			   
+					});
+										$("#datePicker").datepicker("setDate", "12/06/2016");
+										//console.log datePicker.value.Date;
+				</script>
+				
+				 
+				 <br>
+				<br>
+				<div class="section">
+				<h2 class="title">Goal 1: Engagement</h2>	
+					<div class="form-group">
+					  <label class="control-label">Commentary</label>
+						<div class="form-group c137 " data-cid="c137">
+						<textarea type="text" class="form-control" rows="4" id="com_engage" name="com_engage" readonly=""></textarea>
+						</div>
+						
+												
+						<label class="control-label">Rating</label>
+						<select name="rating_engage" id="rating_engage" style="background:#6AF411;" disabled="disabled">
+						<option value="0"> Please Select</option>
+						<option class="red" value="1">1 - Greater than 10% below target</option>
+						<option class="mauve" value="2">2 - Developing/Processing as expected for time in role</option>
+						<option class="yellow" value="3">3 - Within 10% of target</option>
+						<option class="green" value="4" selected="">4 - On or above target</option>
+						<option class="blue" value="5">5 - Significantly Exceeds</option>
+						</select>
+						
+						<script>
+						var elementId = "rating_engage"
+						var classNumber = document.getElementById("rating_engage");
+						classNumber.onchange = runBackgroundChange;
+
+						function runBackgroundChange(first){
+							var value = first.srcElement.options[first.srcElement.selectedIndex].value;
+							if (value != 0) {
+								
+								if(value==1)
+								document.getElementById("rating_engage").style.backgroundColor="#F1560A";
+								if(value==2)
+									document.getElementById("rating_engage").style.backgroundColor="#CC99FF";
+								if(value==3)
+									document.getElementById("rating_engage").style.backgroundColor="#D3EA0E";
+								if(value==4)
+									document.getElementById("rating_engage").style.backgroundColor="#6AF411";
+								if(value==5)
+									document.getElementById("rating_engage").style.backgroundColor="#31C8F7";
+								
+							
+							} else {
+								document.getElementById("rating_engage").style.backgroundColor="";
+							};
+						}
+						</script>
+						
+						
+					</div>
+				</div>	
+				<br>
+				<!-- Goal 2 Customer service -->
+				<div class="section" data-cid="c34">
+				 <h1 class="title" for="c34">Goal 2: Customer Service</h1>
+				  <h2 class="title" for="c34">Monthly Call Stats</h2>
+
+						<div class="form-group c49 " data-cid="c49">
+						<label class="control-label" for="c49">Calls Handled</label>
+						<div class="form-group c56 " data-cid="c56">
+						<label class="control-label" for="c56">Individual Result (Employee Completed)</label>
+						
+						<input type="text" class="form-control" id="calls_handle_ind" name="calls_handle_ind" value="TEST ENCRYPTION" readonly="">
+						
+					
+						</div>
+
+						<div class="form-group c63 " data-cid="c63">
+						<label class="control-label" for="c63">Team Average/Target (Leader Completed)</label>
+						<input type="text" class="form-control" id="calls_handle_team" name="calls_handle_team" value="TEST ENCRYPTION" readonly="">
+						</div>
+
+						</div>
+				
+
+				<div class="form-group c73 " data-cid="c73">
+				<label class="control-label" for="c73">Active Talk Time</label>
+				<div class="form-group c78 " data-cid="c78">
+					<label class="control-label" for="c78">Individual Result (Employee Compeleted)</label>
+					<input type="text" class="form-control" id="talk_time_ind" name="talk_time_ind" value="TEST ENCRYPTION" readonly="">
+					</div>
+
+					<div class="form-group c83 " data-cid="c83">
+					<label class="control-label" for="c83">Team Average/Target (Leader Completed)</label>
+					<input type="text" class="form-control" id="talk_time_team" name="talk_time_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				</div>
+
+
+				<div class="form-group c97 " data-cid="c97">
+				<label class="control-label" for="c97">Average Handle Time</label>
+					<div class="form-group c102 " data-cid="c102">
+					<label class="control-label" for="c102">Individual Result (Employee Completed)</label>
+					<input type="text" class="form-control" id="handle_time_ind" name="handle_time_ind" value="TEST ENCRYPTION" readonly="">
+					</div>
+
+
+					<div class="form-group c107 " data-cid="c107">
+					<label class="control-label" for="c107">Team Average/Target (Leader Completed)</label>
+					<input type="text" class="form-control" id="handle_time_team" name="handle_time_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				  
+				</div>
+
+				<div class="form-group c112 " data-cid="c112">
+				<label class="control-label" for="c112">Not Ready Time</label>
+					<div class="form-group c117 " data-cid="c117">
+					<label class="control-label" for="c117">Individual Result (Employee Completed)</label>
+					<input type="text" class="form-control" id="not_ready_ind" name="not_ready_ind" value="TEST ENCRYPTION" readonly="">
+					</div>
+
+
+					<div class="form-group c122 " data-cid="c122">
+					  <label class="control-label" for="c122">Team Average/Target (Leader Completed)</label>
+					<input type="text" class="form-control" id="not_ready_team" name="not_ready_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				</div>
+
+		
+				<div class="form-group c132 " data-cid="c132">
+				  <label class="control-label" for="c132">Commentary</label>
+					<div class="form-group c137 " data-cid="c137">
+					
+					<textarea type="text" class="form-control" rows="4" id="com_call" name="com_call" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+					</div>
+					
+											<br>
+						<label class="control-label">Rating</label>
+						<select name="rating_cs" id="rating_cs" style="background:#F1560A;" disabled="disabled">
+						<option value="0" selected=""> Please Select</option>
+						<option class="red" value="1" selected="">1 - Greater than 10% below target</option>
+						<option class="mauve" value="2">2 - Developing/Processing as expected for time in role</option>
+						<option class="yellow" value="3">3 - Within 10% of target</option>
+						<option class="green" value="4">4 - On or above target</option>
+						<option class="blue" value="5">5 - Significantly Exceeds</option>
+						</select>
+						
+						<script>
+						var elementId = "rating_cs"
+						var classNumber = document.getElementById("rating_cs");
+						classNumber.onchange = runBackgroundChange;
+						function runBackgroundChange(first){
+							var value = first.srcElement.options[first.srcElement.selectedIndex].value;
+							if (value != 0) {
+								
+								if(value==1)
+									document.getElementById("rating_cs").style.backgroundColor="#F1560A";
+								if(value==2)
+									document.getElementById("rating_cs").style.backgroundColor="#CC99FF";
+								if(value==3)
+									document.getElementById("rating_cs").style.backgroundColor="#D3EA0E";
+								if(value==4)
+									document.getElementById("rating_cs").style.backgroundColor="#6AF411";
+								if(value==5)
+									document.getElementById("rating_cs").style.backgroundColor="#31C8F7";
+								
+							
+							} else {
+								document.getElementById("rating_cs").style.backgroundColor="";
+							};
+						}
+						</script>
+				</div>
+				
+				
+			</div>
+				
+			<br>
+			<br>
+			<!-- Goal 3 : quality review  -->
+			<div class="section " data-cid="c34">
+				  <h2 class="title" for="c34">Goal 3 : Quality</h2>
+				  <h2 class="title" for="c34">Quality Reviews</h2>
+
+						<div class="form-group c49 " data-cid="c49">
+						<label class="control-label" for="c49">Transactional Review</label>
+						<div class="form-group c56 " data-cid="c56">
+						<label class="control-label" for="c56">Individual Result (Employee Completed)</label>
+						<input type="text" class="form-control" id="trans_rev_ind" name="trans_rev_ind" value="TEST ENCRYPTION" readonly="">
+						</div>
+
+						<div class="form-group c63 " data-cid="c63">
+						<label class="control-label" for="c63">Team Average/Target (Leader Completed)</label>
+						<input type="text" class="form-control" id="trans_rev_team" name="trans_rev_team" value="TEST ENCRYPTION" readonly="">
+						</div>
+
+						</div>
+
+						<div class="form-group c73 " data-cid="c73">
+						<label class="control-label" for="c73">Other quality reviews (i.e. re-categorization, renewal put on manual review, broker feedback, etc.)</label>
+						<div class="form-group c78 " data-cid="c78">
+							<label class="control-label" for="c78">Individual Result (Employee Compeleted)</label>
+							<input type="text" class="form-control" id="other_qua_ind" name="other_qua_ind" value="TEST ENCRYPTION" readonly="">
+						</div>
+
+							<div class="form-group c83 " data-cid="c83">
+							<label class="control-label" for="c83">Team Average/Target (leader completed)</label>
+							<input type="text" class="form-control" id="other_qua_team" name="other_qua_team" value="TEST ENCRYPTION" readonly="">
+							</div>
+						</div>
+
+
+						<div class="form-group c97 " data-cid="c97">
+						<label class="control-label" for="c97">Call Reviews</label>
+							<div class="form-group c102 " data-cid="c102">
+							<label class="control-label" for="c102">Individual Result (Employee Completed)</label>
+							<input type="text" class="form-control" id="call_rev_ind" name="call_rev_ind" value="TEST ENCRYPTION" readonly="">
+							</div>
+
+							<div class="form-group c107 " data-cid="c107">
+							<label class="control-label" for="c107">Team Average/Target (Leader Completed)</label>
+							<input type="text" class="form-control" id="call_rev_team" name="call_rev_team" value="TEST ENCRYPTION" readonly="">
+							</div>
+						</div>
+						
+												
+						<div class="form-group">
+						  <label class="control-label" for="c132">Commentary</label>
+							<textarea type="text" rows="4" class="form-control" id="qua_com" name="qua_com" readonly="">                                 TEST ENCRYPTION</textarea>
+						
+												<br>
+						<label class="control-label">Rating</label>
+						<select name="rating_quality" id="rating_quality" style="background:#F1560A;" disabled="disabled">
+						<option value="0" selected=""> Please Select</option>
+						<option class="red" value="1" selected="">1 - Greater than 10% below target</option>
+						<option class="mauve" value="2">2 - Developing/Processing as expected for time in role</option>
+						<option class="yellow" value="3">3 - Within 10% of target</option>
+						<option class="green" value="4">4 - On or above target</option>
+						<option class="blue" value="5">5 - Significantly Exceeds</option>
+						</select>
+						
+						<script>
+						var elemendId = "rating_quality"
+						var classNumber = document.getElementById("rating_quality");
+						classNumber.onchange = runBackgroundChange;
+						function runBackgroundChange(first){
+							var value = first.srcElement.options[first.srcElement.selectedIndex].value;
+							if (value != 0) {
+								
+								if(value==1)
+								document.getElementById("rating_quality").style.backgroundColor="#F1560A";
+								if(value==2)
+									document.getElementById("rating_quality").style.backgroundColor="#CC99FF";
+								if(value==3)
+									document.getElementById("rating_quality").style.backgroundColor="#D3EA0E";
+								if(value==4)
+									document.getElementById("rating_quality").style.backgroundColor="#6AF411";
+								if(value==5)
+									document.getElementById("rating_quality").style.backgroundColor="#31C8F7";
+								
+							
+							} else {
+								document.getElementById("rating_quality").style.backgroundColor="";
+							};
+						}
+						</script>
+						
+						
+						
+						</div>
+
+				 
+			</div>
+			<br>
+			<br>	
+		
+			<!-- Goal 4 : processing stats  -->
+			<div class="section " data-cid="c34">
+				  <h2 class="title" for="c34">Goal 4 : Production</h2>
+				  <h2 class="title" for="c34">Processing Stats</h2>
+
+				<div class="form-group c49 " data-cid="c49">
+						<label class="control-label" for="c49">Cases Closed</label>
+						<div class="form-group c56 " data-cid="c56">
+						<label class="control-label" for="c56">Individual Result (Employee Completed)</label>
+						<input type="text" class="form-control" id="case_close_ind" name="case_close_ind" value="test encryption" readonly="">
+						</div>
+
+						<div class="form-group c63 " data-cid="c63">
+						<label class="control-label" for="c63">Team Average/Target (Leader Completed)</label>
+						<input type="text" class="form-control" id="case_close_team" name="case_close_team" value="TEST ENCRYPTION" readonly="">
+						</div>
+
+				</div>
+
+				<div class="form-group c73 " data-cid="c73">
+				<label class="control-label" for="c73">Cases Touched</label>
+				<div class="form-group c78 " data-cid="c78">
+					<label class="control-label" for="c78">Individual Result (Employee Compeleted)</label>
+					<input type="text" class="form-control" id="case_touch_ind" name="case_touch_ind" value="TEST ENCRYPTIONTEST ENCRYPTION" readonly="">
+					</div>
+
+					<div class="form-group c83 " data-cid="c83">
+					<label class="control-label" for="c83">Team Average/Target (Leader Completed)</label>
+					<input type="text" class="form-control" id="case_touch_team" name="case_touch_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				</div>
+
+
+				<div class="form-group c97 " data-cid="c97">
+				<label class="control-label" for="c97">Touch Time(median)</label>
+					<div class="form-group c102 " data-cid="c102">
+					<label class="control-label" for="c102">Individual Result (Employee Completed)</label>
+					<input type="text" class="form-control" id="tt_ind" name="tt_ind" value="TEST ENCRYPTION" readonly="">
+					</div>
+
+					<div class="form-group c107 " data-cid="c107">
+					<label class="control-label" for="c107">Team Average/Target (Leader Completed)</label>
+					<input type="text" class="form-control" id="tt_team" name="tt_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				</div>
+
+				<div class="form-group c112 " data-cid="c112">
+				<label class="control-label" for="c112">Productive Hours(monthly roll up - Leader completed)</label>
+					<div class="form-group c117 " data-cid="c117">
+					<label class="control-label" for="c117">Individual Result (Leader completed)</label>
+					<input type="text" class="form-control" id="prod_hour_ind" name="prod_hour_ind" value="TEST ENCRYPTION" readonly="">
+					</div>
+
+
+					<div class="form-group c122 " data-cid="c122">
+					  <label class="control-label" for="c122">Team Average/Target (leader completed)</label>
+					<input type="text" class="form-control" id="prod_hour_team" name="prod_hour_team" value="TEST ENCRYPTION" readonly="">
+					</div>
+				</div>
+
+
+				<div class="form-group c132 " data-cid="c132">
+				  <label class="control-label" for="c132">Commentary</label>
+					<div class="form-group c137 " data-cid="c137">
+					<textarea type="text" class="form-control" rows="4" id="process_com" name="process_com" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+					</div>
+				
+				</div>
+
+				 
+			</div>
+				<!-- schedule review  -->
+			<div class="section " data-cid="c34">
+				  <h2 class="title" for="c34">Schedule Adherance</h2>
+						
+						<div class="form-group c49 " data-cid="c49">
+							<label class="control-label" for="c49">Log on /Log off times</label>
+							<label class="control-label" for="c56">Feedback(Employee &amp; Leader Completed)</label>
+							<textarea type="text" class="form-control" rows="4" id="log_on_off" name="log_on_off" placeholder="" readonly=""> TEST ENCRYPTION            dfsfgszfdsazvfsz                   </textarea>
+						</div>
+
+						
+						<div class="form-group c49 " data-cid="c49">
+							<label class="control-label" for="c49">Break / Lunch Durations</label>
+							<label class="control-label" for="c56">Feedback(Employee &amp; Leader Completed)</label>
+							<textarea type="text" class="form-control" rows="4" id="break" name="break" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+						</div>
+						
+						<div class="form-group c49 " data-cid="c49">
+							<label class="control-label" for="c49">Attendance</label>
+							<label class="control-label" for="c56">Feedback(Employee &amp; Leader Completed)</label>
+							<textarea type="text" class="form-control" rows="4" id="attendance" name="attendance" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+						</div>
+					
+						<div class="form-group c49 " data-cid="c49">
+							<label class="control-label" for="c49">Commentary</label>
+							<label class="control-label" for="c56">Feedback(Employee &amp; Leader Completed)</label>
+							<textarea type="text" class="form-control" rows="4" id="sche_com" name="sche_com" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+						
+												<br>
+						<label class="control-label">Rating</label>
+						<select name="rating_pr" id="rating_pr" style="background:#F1560A;" disabled="disabled">
+						<option value="0" selected=""> Please Select</option>
+						<option class="red" value="1" selected="">1 - Greater than 10% below target</option>
+						<option class="mauve" value="2">2 - Developing/Processing as expected for time in role</option>
+						<option class="yellow" value="3">3 - Within 10% of target</option>
+						<option class="green" value="4">4 - On or above target</option>
+						<option class="blue" value="5">5 - Significantly Exceeds</option>
+						</select>
+						
+						<script>
+						var elementId = "rating_pr"
+						var classNumber = document.getElementById("rating_pr");
+						classNumber.onchange = runBackgroundChange;
+						function runBackgroundChange(first){
+							var value = first.srcElement.options[first.srcElement.selectedIndex].value;
+							if (value != 0) {
+								
+								if(value==1)
+								document.getElementById("rating_pr").style.backgroundColor="#F1560A";
+								if(value==2)
+									document.getElementById("rating_pr").style.backgroundColor="#CC99FF";
+								if(value==3)
+									document.getElementById("rating_pr").style.backgroundColor="#D3EA0E";
+								if(value==4)
+									document.getElementById("rating_pr").style.backgroundColor="#6AF411";
+								if(value==5)
+									document.getElementById("rating_pr").style.backgroundColor="#31C8F7";
+								
+							
+							} else {
+								document.getElementById("rating_pr").style.backgroundColor="";
+							};
+						}
+						</script>
+						</div>
+							 
+			</div>
+				
+			 <br>
+            <!--Goal 5  -->
+			<br>
+			<br>
+				<div class="section">
+				<h2 class="title">Goal 5: Growth</h2>	
+					<div class="form-group">
+					  <label class="control-label">Commentary</label>
+						<div class="form-group c137 " data-cid="c137">
+						<textarea type="text" class="form-control" rows="4" id="com_growth" name="com_growth" readonly="">TEST ENCRYPTION</textarea>
+						</div>
+						
+												
+						<label class="control-label">Rating</label>
+						<select name="rating_growth" id="rating_growth" style="background:#31C8F7;" disabled="disabled">
+						<option value="0">Please Select</option>
+						<option class="red" value="1">1 - Greater than 10% below target</option>
+						<option class="mauve" value="2">2 - Developing/Processing as expected for time in role</option>
+						<option class="yellow" value="3">3 - Within 10% of target</option>
+						<option class="green" value="4">4 - On or above target</option>
+						<option class="blue" value="5" selected="">5 - Significantly Exceeds</option>
+						</select>
+						
+						<script>
+						var elementId = "rating_growth"
+						var classNumber = document.getElementById("rating_growth");
+						classNumber.onchange = runBackgroundChange;
+
+						function runBackgroundChange(first){
+							var value = first.srcElement.options[first.srcElement.selectedIndex].value;
+							if (value != 0) {
+								
+								if(value==1)
+								document.getElementById("rating_growth").style.backgroundColor="#F1560A";
+								if(value==2)
+									document.getElementById("rating_growth").style.backgroundColor="#CC99FF";
+								if(value==3)
+									document.getElementById("rating_growth").style.backgroundColor="#D3EA0E";
+								if(value==4)
+									document.getElementById("rating_growth").style.backgroundColor="#6AF411";
+								if(value==5)
+									document.getElementById("rating_growth").style.backgroundColor="#31C8F7";
+								
+							
+							} else {
+								document.getElementById("rating_growth").style.backgroundColor="";
+							};
+						}
+						</script>
+						
+						
+					</div>
+				</div>		
+			
+			
+			<input type="hidden" name="page_id" id="page_id" value="121">
+			<br>
+			<div class="section">
+			<div class="form-group">
+			
+					<label class="title" for="well_challenge">What are you feeling really good about?(Employee&amp;Leader Completed)</label>
+				    <textarea class="form-control" rows="8" type="text" name="well" readonly="">TEST ENCRYPTION</textarea>
+			</div>	
+			</div>
+			
+			<br>
+			<div class="section">
+			<div class="form-group">
+					<label class="title" for="case_info">What are you not feeling really good about?(Employee&amp;Leader Completed)</label>
+				    <textarea class="form-control" rows="8" type="text" name="not_well" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+			</div>
+			</div>
+							
+					
+			<br>	
+			<div class="section">
+			<div class="form-group">
+				    <label class="title" for="next_employee">Next Step for Employee</label>
+				    <textarea class="form-control" rows="8" name="next_employee" placeholder="" readonly="">TEST ENCRYPTION</textarea>
+			</div>
+			</div>
+			
+			<br>			
+			<div class="section ">
+			<div class="form-group">
+				    <label class="title" for="next_leader">Next Step for Leader</label>
+				    <textarea class="form-control" rows="8" name="next_leader" placeholder="" readonly="">TEST ENCRYPTIONvfczczvzvz</textarea>
+			</div>
+			</div>
+			</div>
+			
+			<input type="checkbox" name="agree" id="agree" value="0" checked="">  I agree with the contents of this coaching sheet (Employee Acknowledgement)
+			<input type="text" id="agree_text" name="agree_text" hidden="">
+			<script>
+			
+			$(document).ready(function() {
+			//set initial state.
+			$('#agree_text').val($(this).is(':checked'));
+			
+			$('#agree').change(function() {
+				if($(this).is(":checked")) {
+					//var returnVal = confirm("Are you sure?");
+					$(this).attr("checked", "true");
+				}
+				$('#agree_text').val($(this).is(':checked'));
+			});
+			});
+			</script>
+			
+			
+			<br>
+			<br>
+			
+						
+			<button type="submit" name="submitted" class="btn btn-default">Save</button>
+			
+										<button type="submit" name="locked" class="btn btn-default">Lock</button>
+				<button type="submit" name="unlock" class="btn btn-default">Unlock</button>
+				<a href="send_email.php?pageid=121" class="btn btn-default">Send Email</a>
+				<a href="save_doc.php?pageid=121" class="btn btn-default">Save Document</a>
+				
+						
+				 <!-- <input type="hidden" name="submitted" value="1"> -->
+		</form>
