@@ -1,12 +1,11 @@
-id,First name,Last name,Email,password
-BNW,Benjamin,Wadleigh,benjamin.wadleigh@economical.com,BNW
-DLF,Dan,Fiddler,dan.fiddler@economical.com,DLF
-DWM,Dawn,Mercier,dawn.mercier@economical.com,DWM
-JLU,Jesse,Lunt,jesse.lunt@economical.com,JLU
-KBK,Karan,Kak,Karan.Kak@economical.com,KBK
-KMK,Kim,Karshan,kim.karshan@economical.com,KMK
-KTN,Kim,Tan-Nguyen,kim.tan-nguyen@economical.com,KTN
-LAO,Larissa,Porciello,Larissa.Porciello@economical.com,LAO
-LOT,Louise,Trepanier,louise.trepanier@economical.com,LOT
-LYK,Lucy,Konji,lucy.konji@economical.com,LYK
-SFC,Sarah,Chapin,sarah.chapin@economical.com,SFC
+user_name,first_name,last_name,email,department,name
+CRE,Christina,Reikman,Christina.Reikman@economical.com,KW Regional C/L Technical Processing,Christina Reikman
+LOT,Louise,Trepanier,louise.trepanier@economical.com,Montreal Regional C/L Technical Processing,Louise Trepanier
+LYK,Lucy,Konji,lucy.konji@economical.com,Regional C/L Underwriting Administration,Lucy Konji
+DWM,Dawn,Patton,Dawn.Patton@economical.com,Regional C/L Underwriting Administration,Dawn Patton
+KMK,Kim,Karshan,kim.karshan@economical.com,Regional C/L Underwriting Administration,Kim Karshan
+AZC,Anna,Czubak,anna.czubak@economical.com,Regional C/L Underwriting Administration,Anna Czubak
+JLU,Jesse,Lunt,jesse.lunt@economical.com,Regional C/L Underwriting Administration,Jesse Lunt
+KTN,Kim,Tan-Nguyen,kim.tan-nguyen@economical.com,Regional C/L Underwriting Administration,Kim Tan-Nguyen
+SFC,Sarah,Chapin,sarah.chapin@economical.com,Regional C/L Underwriting Administration,Sarah Chapin
+EAD,Elaine,Chieng,Elaine.Chieng@economical.com,Regional C/L Underwriting Administration,Elaine Chieng

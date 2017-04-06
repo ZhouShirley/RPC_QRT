@@ -306,4 +306,21 @@ option.blue {background-color: #31C8F7;}
 	  font-size: 18px;
 	 text-align: left;
 }	
+
+
+.green{
+	background-color:#C0F867;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+}
+
+.red{
+	background-color:#F57D59;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+}
 </style>

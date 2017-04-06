@@ -8,7 +8,8 @@
 /* DB Name
  * Enter the name of your database below.
  */
-define('DB_NAME', 'qrt');
+define ('DB_HOST',"eco71147");
+define('DB_NAME', 'rpc_qrt');
 
 /* DB Username
  * Enter the username of the user with access to the database below.
@@ -37,7 +38,7 @@ define('NONCE_SALT', 'fxmAMC5TiY2_)(eh2DfbOOX4*&F73ldggm8KZP35N48t3OVbTaoOpaOlLy
  */
 define('AUTH_SALT', 'g)(*)Um9SXCqWWvSDm6&^&k3iwMqPghWzTgqMSiy)(&*&RaAoMdbyLNuRdvH(gwL0fA7Umlmy4ZvH04r2xjp7KH2ahNNc');
 
-$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 
 define('ENCRYPTION_KEY', 'd0a7e7997b6d5fcd55f4b5c32611b87cd923e88837b63bf2941ef819dc8ca282');
 // Encrypt Function

@@ -1,7 +1,7 @@
 <?PHP
 
 
-$dbc = mysqli_connect('eco72648','shirley','','npc_coaching') or die('Could not connect because:'.mysqli_connect_error());
+$dbc = mysqli_connect(DB_HOST,'shirley','','npc_coaching') or die('Could not connect because:'.mysqli_connect_error());
 
 
 $fp = fopen('C:\xampp\htdocs\coach_NPC\admin\import_to_mysql\sys_user.csv','r') or die("can't open file");

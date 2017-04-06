@@ -1,6 +1,6 @@
 <?php
 require_once('load.php');
-$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+$link = mysqli_connect('eco71147',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 // Our main class
 if(!class_exists('Joomba')){
 	class Joomba {
@@ -67,7 +67,7 @@ if(!class_exists('Joomba')){
 							);
 					
 					//And, we insert our data
-					$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+					$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 					$insert = $jdb->insert($link, $table, $fields, $values);
 					
 					if ( $insert == TRUE ) {
@@ -152,7 +152,7 @@ if(!class_exists('Joomba')){
 					
 					//And, we update our data
 					//$link = mysql_connect('localhost', DB_USER, DB_PASS);
-					$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+					$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 					$q = "UPDATE login_test SET user_pass= '$userpass' WHERE char_id = '$char_id'";
 					$update_pass = mysqli_query($link, $q);
 					//$insert = $jdb->insert($link, $table, $fields, $values);
@@ -178,7 +178,7 @@ if(!class_exists('Joomba')){
 		
 		function login($redirect) {
 			global $jdb;
-			$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error()); 
+			$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error()); 
 		
 			if ( !empty ( $_POST ) ) {
 				
@@ -203,8 +203,9 @@ if(!class_exists('Joomba')){
 				 */
 				//$link = mysqli_connect('eco71147',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 				$sql = "SELECT * FROM $table WHERE char_id = '" . $char_id . "'";
-				$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+				$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 				$results = $jdb->select($link,$sql);
+				
 				
 				if($results){
 					//echo ("user name password success in login");
@@ -215,6 +216,7 @@ if(!class_exists('Joomba')){
 				if (!$results) {
 					echo ("failure in login function");
 					die('Sorry, that username does not exist!');
+					error_log ($sql);
 				}
 				
 				
@@ -293,7 +295,7 @@ if(!class_exists('Joomba')){
 				//Query the database for the selected user
 				$table = 'login_test';
 				$sql = "SELECT * FROM $table WHERE user_login = '" . $user . "'";
-				$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+				$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 				$results = mysqli_query($link,$sql);
 
 				//Kill the script if the submitted username doesn't exit

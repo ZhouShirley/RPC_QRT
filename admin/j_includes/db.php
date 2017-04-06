@@ -1,6 +1,6 @@
 <?php
 include('load.php');
-$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+$link = mysqli_connect('eco71147',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 // Our database class
 if(!class_exists('JoombaDatabase')){
 	class JoombaDatabase {
@@ -37,7 +37,7 @@ if(!class_exists('JoombaDatabase')){
 			//$link = mysql_connect('localhost', DB_USER, DB_PASS);
 			global $link;
 			
-			$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+			$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 			if (!$link) {
 				die('Could not connect: ' . mysqli_error($link));
 			}
@@ -62,7 +62,7 @@ if(!class_exists('JoombaDatabase')){
 		function array_map_callback($a)
 		{
 		  global $link;
-		  $link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+		  $link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 
 		  return mysqli_real_escape_string($link, $a);
 		}
@@ -143,7 +143,7 @@ if(!class_exists('JoombaDatabase')){
 		 * @param array $equals The value being searched for
 		 */
 		function select($link,$sql) {
-			$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME);
+			$link = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
 			$results = mysqli_query($link,$sql);
 			
 			return $results;
