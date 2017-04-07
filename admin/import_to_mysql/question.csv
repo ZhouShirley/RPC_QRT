@@ -1,207 +1,207 @@
-product type,trans_type,section,question,,,,,
-auto,renewal prep,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-auto,renewal prep,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,renewal prep,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Were related cases with earlier effective dates escalated prior to renewal prep?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the master drivers list updated correctly?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Were the necessary MVRS ordered or entered manually?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the underwriter advised of any driver concerns?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the premium and loss record completed correctly?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the renewal WIP/renewal GarageRater prepped as per underwriter instruction?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Were the 43/43A endorsements updated as per provincial standards?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the CVOR/OMVIC registration status checked?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Was the underwriter notified of any open abeyances?,,,,,
-auto,renewal prep,DATA ENTRY & PROCESSES,Were any cross reference policies noted appropriately?,,,,,
-auto,renewal prep,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,RENEWAL ISSUANCE,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-auto,RENEWAL ISSUANCE,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,RENEWAL ISSUANCE,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Were related cases with earlier effective dates escalated prior to renewal issuance?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Was the renewal issued at the correct annual premium?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Was the renewal issued on the correct payment plan?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Have all endorsements been created correctly?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Was the WIP issued correctly? Was coding in ENTR completed correctly?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Was an email sent and abeyance set for any outstanding information/documentation?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Were all appropriate policy documents and liability certificates sent to document delivery?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Were prints ordered appropriately?,,,,,
-auto,RENEWAL ISSUANCE,DATA ENTRY & PROCESSES,Was the case sent to document delivery using the correct document generation status?,,,,,
-auto,RENEWAL ISSUANCE,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,POLICY CHANGE,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-auto,POLICY CHANGE,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,POLICY CHANGE,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were MVRS ordered or entered manually?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were appropriate driver concerns referred to the underwriter?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were any appropriate surcharges/adjustments added/removed correctly in PAS?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the drivers list updated correctly?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the broker notified appropriately?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were the appropriate referrals made to the underwriter?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,"Was the data entered correctly into PAS (vehicle model, VIN, named insured, territory, rate group, named insured, address)?",,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were the appropriate endorsements added and premiums charged?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the appropriate coverage added or removed?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were all interests shown appropriately on the policy?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were related cases processed in their respective order of effective dates?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the WIP issued correctly? Was coding in ENTR completed correctly?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the 25A/72 filled out correctly?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were all appropriate endorsements and liability certificates sent to document delivery?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were any necessary registered letters sent to additional interests?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Were prints ordered appropriately?,,,,,
-auto,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the case sent to document delivery using the correct document generation status?,,,,,
-auto,POLICY CHANGE,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,NEW BUSINESS,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-auto,NEW BUSINESS,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,NEW BUSINESS,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Has the master drivers list been created?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Have MVRS been ordered or entered manually?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the underwriter advised of any driver concerns prior to issuing the policy?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Do the lessors or lienholders align with the correct endorsements?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Do the VINs in the policy match the VINS on the ownerships (if ownerships have been received)?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the policy issued at the correct annual premium?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the PAC/Direct Bill account created correctly?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the policy issued on the correct payment plan?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Have all endorsements been created correctly?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the WIP issued correctly? Was coding in ENTR completed correctly?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was an email sent and abeyance set for any outstanding information/documentation?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Were all appropriate policy documents and liability certificates sent to document delivery?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Were prints ordered appropriately?,,,,,
-auto,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the case sent to document delivery using the correct document generation status?,,,,,
-auto,NEW BUSINESS,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Were the appropriate referrals made to the underwriter?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the correct COI template used?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,"Were the names and addresses of the certificate holder, named insured, and broker entered correctly?",,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Were the operations and location described correctly?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Were all appropriate coverages and limits entered correctly?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the policy number and expiry date entered correctly?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the appropriate cancellation notice provided?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the certificate dated correctly?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Were all additional interests/lessors/lienholders correctly described?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the certificate of insurance uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the certificate of insurance emailed to the broker as a PDF?,,,,,
-auto,CERTIFICATE OF INSURANCE – NEEDED,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the COI?,,,,,
-auto,CANCELLATION,risk assessment,Were underwriter/broker instructions acted on correctly?,,,,,
-auto,CANCELLATION,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,CANCELLATION,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Were open policy changes with effective dates prior to cancellation processed before the cancellation?,,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,"Were appropriate referrals made to the underwriter (requests to cancel accounts over $10k, requests to backdate cancellation, requests for pro-rata cancellation when not warranted, requests for flat cancellation more than 30 days after renewal, requests for cancellation effective the same date as date of loss on a claim)?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,"Was appropriate documentation received prior to processing the cancellation (signed LPV, returned policy documents, notification from CAC)?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,"Was the appropriate method of cancellation applied (short-rate, pro-rata, flat)?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Was the WIP issued correctly? Was coding in ENTR completed correctly?,,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,"For cancellations for non-payment, was the cancellation template filled out correctly and returned to CAC?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Was documentation uploaded correctly to SharePoint (using the proper naming conventions)?,,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,"Was the correct documentation sent to the broker (cancellation dec page, advice of return premium, registered letter)?",,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Were any necessary registered letters sent to lessors and lienholders?,,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Were prints ordered appropriately?,,,,,
-auto,CANCELLATION,DATA ENTRY & PROCESSES,Was the case sent to document delivery using the correct document generation status?,,,,,
-auto,LETTER OF EXPERIENCE,risk assessment,Were underwriter/broker instructions acted on correctly?,,,,,
-auto,LETTER OF EXPERIENCE,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,LETTER OF EXPERIENCE,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the correct LOE template used?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the LOE addressed and dated correctly?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,"Was the policy information entered correctly (correct policy number, named insured/driver, and effective/expiry dates)?",,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Were all losses entered correctly?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the LOE uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the LOE emailed to the broker as a PDF?,,,,,
-auto,LETTER OF EXPERIENCE,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,LETTER OF AUTHORITY,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-auto,LETTER OF AUTHORITY,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,LETTER OF AUTHORITY,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Were related policy change cases processed in their respective order of effective date?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the proper documentation obtained for broker transfer (LOA on client letterhead/signed by insured)?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Were notification letters sent to the existing and newly appointed brokers with seven days’ notice provided?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,"If the existing broker replied with a letter (on client letterhead/signed by insured) agreeing to remain with existing broker, was the case not-processed/new underwriter advised/documentation noted in PAS?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,"If no reply received in seven days, was a ticket submitted to have IT update the broker code in PAS/ACRE?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was a $0 codeblock completed correctly for the broker transfer?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the new underwriter advised of the broker transfer?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was all documentation uploaded correctly to SharePoint (using proper naming conventions)?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,"Was updated documentation (dec page, vehicle schedule, and liability certificates) sent to document delivery?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Were prints ordered appropriately?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the case sent to document delivery using the correct document generation status?,,,,,
-auto,LETTER OF AUTHORITY,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-property,renewal prep,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-property,renewal prep,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,renewal prep,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Were related cases with earlier effective dates escalated prior to renewal prep?,,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,"Was subjectivity checked, are we within capacity?",,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Were there any outstanding abeyances?,,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Are buildings insured to value?,,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Has data clean up been completed?,,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Has A/CLOC been updated?,,,,,
-property,renewal prep,DATA ENTRY & PROCESSES,Were cross reference policies noted appropriately?,,,,,
-property,renewal prep,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction on ECOM?,,,,,
-property,RENEWAL,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-property,RENEWAL,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,RENEWAL,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,RENEWAL,DATA ENTRY & PROCESSES,Were related cases with earlier effective dates escalated prior to renewal issuance?,,,,,
-property,RENEWAL,DATA ENTRY & PROCESSES,Was the renewal issued at the correct annual premium?,,,,,
-property,RENEWAL,DATA ENTRY & PROCESSES,Was the renewal issued on the correct payment plan?,,,,,
-property,RENEWAL,DATA ENTRY & PROCESSES,Was the renewal issued as per Underwriters quote?,,,,,
-property,RENEWAL,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-property,RENEWAL,SYSTEM & STATISTICAL,Is A/CLOC information correct?,,,,,
-property,RENEWAL,SYSTEM & STATISTICAL,Have the correct IBC codes been used as provided by the UW?,,,,,
-property,POLICY CHANGE,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-property,POLICY CHANGE,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,POLICY CHANGE,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Were MVRS ordered or entered manually?,,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Were the appropriate referrals made to the underwriter?,,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,"Was the data entered correctly into ECOM (Building details, Wordings)?",,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Were the appropriate endorsements added and premiums charged?,,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Was the appropriate coverage added or removed?,,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Were all interests shown appropriately on the policy?,,,,,
-property,POLICY CHANGE,DATA ENTRY & PROCESSES,Were related cases processed in their respective order of effective dates?,,,,,
-property,POLICY CHANGE,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction on ECOM?,,,,,
-property,POLICY CHANGE,SYSTEM & STATISTICAL,"If location information was modified, was A/CLOC information entered correctly?",,,,,
-property,NEW BUSINESS,risk assessment,Were underwriter instructions acted on correctly?,,,,,
-property,NEW BUSINESS,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,NEW BUSINESS,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the policy issued at the correct annual premium?,,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the PAC/Direct Bill account created correctly?,,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the policy issued on the correct payment plan?,,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the correct effective date used?,,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,"Were the correct notes in the Coverage Detail (C2) screens used? (CEF, MPF, Installation Floater, etc.)",,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was an abeyance set for any outstanding documents?,,,,,
-property,NEW BUSINESS,DATA ENTRY & PROCESSES,Was the policy issued according to Underwriters quote?,,,,,
-property,NEW BUSINESS,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction on ECOM?,,,,,
-property,NEW BUSINESS,SYSTEM & STATISTICAL,Is A/CLOC information correct?,,,,,
-property,NEW BUSINESS,SYSTEM & STATISTICAL,Have the correct IBC codes been used as provided by the UW?,,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Were the appropriate referrals made to the underwriter?,,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the correct COI template used?,,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,"Was all data entered correctly (effective dates, certificate holder, notice of cancellation, any special wording)",,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,DATA ENTRY & PROCESSES,Was the certificate of insurance emailed to the broker as a PDF?,,,,,
-property,CERTIFICATE OF INSURANCE – NEEDED,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the COI?,,,,,
-property,CANCELLATION,risk assessment,Were underwriter/broker instructions acted on correctly?,,,,,
-property,CANCELLATION,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-property,CANCELLATION,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,Were open policy changes with effective dates prior to cancellation processed before the cancellation?,,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,"Were appropriate referrals made to the underwriter (requests to cancel accounts over $10k, requests to backdate cancellation, requests for pro-rata cancellation when not warranted, requests for flat cancellation more than 30 days after renewal, requests for cancellation effective the same date as date of loss on a claim)?",,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,"Was appropriate documentation received prior to processing the cancellation (signed LPV, returned policy documents, notification from CAC)?",,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,"Was the appropriate method of cancellation applied (short-rate, pro-rata, flat)?",,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,"Was the correct documentation sent to the broker (cancellation dec page, advice of return premium, registered letter)?",,,,,
-property,CANCELLATION,DATA ENTRY & PROCESSES,Were any necessary registered letters sent to lessors and lienholders?,,,,,
-property,CANCELLATION,SYSTEM & STATISTICAL,Was the correct reason for cancellation selected on ECOM?,,,,,
-auto,LETTER OF EXPERIENCE,risk assessment,Were underwriter/broker instructions acted on correctly?,,,,,
-auto,LETTER OF EXPERIENCE,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,LETTER OF EXPERIENCE,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the correct LOE template used?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the LOE addressed and dated correctly?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,"Was the policy information entered correctly (correct policy number, named insured/driver, and effective/expiry dates)?",,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Were all losses entered correctly?,,,,,
-auto,LETTER OF EXPERIENCE,DATA ENTRY & PROCESSES,Was the LOE emailed to the broker as a PDF?,,,,,
-auto,LETTER OF EXPERIENCE,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
-auto,LETTER OF AUTHORITY,risk assessment,Were broker/underwriter instructions acted on correctly?,,,,,
-auto,LETTER OF AUTHORITY,AUTHORITIES,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?",,,,,
-auto,LETTER OF AUTHORITY,SERVICE LEVEL AGREEMENTS,"When the processor took control of the case, was it handled in an appropriate amount of time?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Were related policy change cases processed in their respective order of effective date?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the proper documentation obtained for broker transfer (LOA on client letterhead/signed by insured)?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Were notification letters sent to the existing and newly appointed brokers with seven days’ notice provided?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,"If the existing broker replied with a letter (on client letterhead/signed by insured) agreeing to remain with existing broker, was the case not-processed/new underwriter advised/documentation noted in ECOM?",,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the new underwriter advised of the broker transfer?,,,,,
-auto,LETTER OF AUTHORITY,DATA ENTRY & PROCESSES,Was the broker code change completed on ECOM?,,,,,
-auto,LETTER OF AUTHORITY,SYSTEM & STATISTICAL,Was appropriate full documentation added describing the transaction?,,,,,
+product type,trans_type,section,question
+Auto,renewal prep,Risk Assessment,Were underwriter instructions acted on correctly?
+Auto,renewal prep,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,renewal prep,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,renewal prep,Data Entry & Process,Were related cases with earlier effective dates escalated prior to renewal prep?
+Auto,renewal prep,Data Entry & Process,Was the master drivers list updated correctly?
+Auto,renewal prep,Data Entry & Process,Were the necessary MVRS ordered or entered manually?
+Auto,renewal prep,Data Entry & Process,Was the underwriter advised of any driver concerns?
+Auto,renewal prep,Data Entry & Process,Was the premium and loss record completed correctly?
+Auto,renewal prep,Data Entry & Process,Was the renewal WIP/renewal GarageRater prepped as per underwriter instruction?
+Auto,renewal prep,Data Entry & Process,Were the 43/43A endorsements updated as per provincial standards?
+Auto,renewal prep,Data Entry & Process,Was the CVOR/OMVIC registration status checked?
+Auto,renewal prep,Data Entry & Process,Was the underwriter notified of any open abeyances?
+Auto,renewal prep,Data Entry & Process,Were any cross reference policies noted appropriately?
+Auto,renewal prep,System & Statistical,Was appropriate full documentation added describing the transaction?
+Auto,RENEWAL ISSUANCE,Risk Assessment,Were underwriter instructions acted on correctly?
+Auto,RENEWAL ISSUANCE,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,RENEWAL ISSUANCE,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Were related cases with earlier effective dates escalated prior to renewal issuance?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Was the renewal issued at the correct annual premium?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Was the renewal issued on the correct payment plan?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Have all endorsements been created correctly?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Was the WIP issued correctly? Was coding in ENTR completed correctly?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Was an email sent and abeyance set for any outstanding information/documentation?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Were all appropriate policy documents and liability certificates sent to document delivery?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Were prints ordered appropriately?
+Auto,RENEWAL ISSUANCE,Data Entry & Process,Was the case sent to document delivery using the correct document generation status?
+Auto,RENEWAL ISSUANCE,System & Statistical,Was appropriate full documentation added describing the transaction?
+Auto,POLICY CHANGE,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Auto,POLICY CHANGE,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,POLICY CHANGE,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,POLICY CHANGE,Data Entry & Process,Were MVRS ordered or entered manually?
+Auto,POLICY CHANGE,Data Entry & Process,Were appropriate driver concerns referred to the underwriter?
+Auto,POLICY CHANGE,Data Entry & Process,Were any appropriate surcharges/adjustments added/removed correctly in PAS?
+Auto,POLICY CHANGE,Data Entry & Process,Was the drivers list updated correctly?
+Auto,POLICY CHANGE,Data Entry & Process,Was the broker notified appropriately?
+Auto,POLICY CHANGE,Data Entry & Process,Were the appropriate referrals made to the underwriter?
+Auto,POLICY CHANGE,Data Entry & Process,"Was the data entered correctly into PAS (vehicle model, VIN, named insured, territory, rate group, named insured, address)?"
+Auto,POLICY CHANGE,Data Entry & Process,Were the appropriate endorsements added and premiums charged?
+Auto,POLICY CHANGE,Data Entry & Process,Was the appropriate coverage added or removed?
+Auto,POLICY CHANGE,Data Entry & Process,Were all interests shown appropriately on the policy?
+Auto,POLICY CHANGE,Data Entry & Process,Were related cases processed in their respective order of effective dates?
+Auto,POLICY CHANGE,Data Entry & Process,Was the WIP issued correctly? Was coding in ENTR completed correctly?
+Auto,POLICY CHANGE,Data Entry & Process,Was the 25A/72 filled out correctly?
+Auto,POLICY CHANGE,Data Entry & Process,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,POLICY CHANGE,Data Entry & Process,Were all appropriate endorsements and liability certificates sent to document delivery?
+Auto,POLICY CHANGE,Data Entry & Process,Were any necessary registered letters sent to additional interests?
+Auto,POLICY CHANGE,Data Entry & Process,Were prints ordered appropriately?
+Auto,POLICY CHANGE,Data Entry & Process,Was the case sent to document delivery using the correct document generation status?
+Auto,POLICY CHANGE,System & Statistical,Was appropriate full documentation added describing the transaction?
+Auto,NEW BUSINESS,Risk Assessment,Were underwriter instructions acted on correctly?
+Auto,NEW BUSINESS,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,NEW BUSINESS,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,NEW BUSINESS,Data Entry & Process,Has the master drivers list been created?
+Auto,NEW BUSINESS,Data Entry & Process,Have MVRS been ordered or entered manually?
+Auto,NEW BUSINESS,Data Entry & Process,Was the underwriter advised of any driver concerns prior to issuing the policy?
+Auto,NEW BUSINESS,Data Entry & Process,Do the lessors or lienholders align with the correct endorsements?
+Auto,NEW BUSINESS,Data Entry & Process,Do the VINs in the policy match the VINS on the ownerships (if ownerships have been received)?
+Auto,NEW BUSINESS,Data Entry & Process,Was the policy issued at the correct annual premium?
+Auto,NEW BUSINESS,Data Entry & Process,Was the PAC/Direct Bill account created correctly?
+Auto,NEW BUSINESS,Data Entry & Process,Was the policy issued on the correct payment plan?
+Auto,NEW BUSINESS,Data Entry & Process,Have all endorsements been created correctly?
+Auto,NEW BUSINESS,Data Entry & Process,Was the WIP issued correctly? Was coding in ENTR completed correctly?
+Auto,NEW BUSINESS,Data Entry & Process,Was an email sent and abeyance set for any outstanding information/documentation?
+Auto,NEW BUSINESS,Data Entry & Process,Were all policy documents uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,NEW BUSINESS,Data Entry & Process,Were all appropriate policy documents and liability certificates sent to document delivery?
+Auto,NEW BUSINESS,Data Entry & Process,Were prints ordered appropriately?
+Auto,NEW BUSINESS,Data Entry & Process,Was the case sent to document delivery using the correct document generation status?
+Auto,NEW BUSINESS,System & Statistical,Was appropriate full documentation added describing the transaction?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Were the appropriate referrals made to the underwriter?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the correct COI template used?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,"Were the names and addresses of the certificate holder, named insured, and broker entered correctly?"
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Were the operations and location described correctly?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Were all appropriate coverages and limits entered correctly?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the policy number and expiry date entered correctly?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the appropriate cancellation notice provided?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the certificate dated correctly?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Were all additional interests/lessors/lienholders correctly described?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the certificate of insurance uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the certificate of insurance emailed to the broker as a PDF?
+Auto,CERTIFICATE OF INSURANCE – NEEDED,System & Statistical,Was appropriate full documentation added describing the COI?
+Auto,CANCELLATION,Risk Assessment,Were underwriter/broker instructions acted on correctly?
+Auto,CANCELLATION,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,CANCELLATION,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,CANCELLATION,Data Entry & Process,Were open policy changes with effective dates prior to cancellation processed before the cancellation?
+Auto,CANCELLATION,Data Entry & Process,"Were appropriate referrals made to the underwriter (requests to cancel accounts over $10k, requests to backdate cancellation, requests for pro-rata cancellation when not warranted, requests for flat cancellation more than 30 days after renewal, requests for cancellation effective the same date as date of loss on a claim)?"
+Auto,CANCELLATION,Data Entry & Process,"Was appropriate documentation received prior to processing the cancellation (signed LPV, returned policy documents, notification from CAC)?"
+Auto,CANCELLATION,Data Entry & Process,"Was the appropriate method of cancellation applied (short-rate, pro-rata, flat)?"
+Auto,CANCELLATION,Data Entry & Process,Was the WIP issued correctly? Was coding in ENTR completed correctly?
+Auto,CANCELLATION,Data Entry & Process,"For cancellations for non-payment, was the cancellation template filled out correctly and returned to CAC?"
+Auto,CANCELLATION,Data Entry & Process,Was documentation uploaded correctly to SharePoint (using the proper naming conventions)?
+Auto,CANCELLATION,Data Entry & Process,"Was the correct documentation sent to the broker (cancellation dec page, advice of return premium, registered letter)?"
+Auto,CANCELLATION,Data Entry & Process,Were any necessary registered letters sent to lessors and lienholders?
+Auto,CANCELLATION,Data Entry & Process,Were prints ordered appropriately?
+Auto,CANCELLATION,Data Entry & Process,Was the case sent to document delivery using the correct document generation status?
+Auto,LETTER OF EXPERIENCE,Risk Assessment,Were underwriter/broker instructions acted on correctly?
+Auto,LETTER OF EXPERIENCE,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,LETTER OF EXPERIENCE,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,Was the correct LOE template used?
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,Was the LOE addressed and dated correctly?
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,"Was the policy information entered correctly (correct policy number, named insured/driver, and effective/expiry dates)?"
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,Were all losses entered correctly?
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,Was the LOE uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,LETTER OF EXPERIENCE,Data Entry & Process,Was the LOE emailed to the broker as a PDF?
+Auto,LETTER OF EXPERIENCE,System & Statistical,Was appropriate full documentation added describing the transaction?
+Auto,LETTER OF AUTHORITY,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Auto,LETTER OF AUTHORITY,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Auto,LETTER OF AUTHORITY,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Were related policy change cases processed in their respective order of effective date?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Was the proper documentation obtained for broker transfer (LOA on client letterhead/signed by insured)?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Were notification letters sent to the existing and newly appointed brokers with seven days’ notice provided?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,"If the existing broker replied with a letter (on client letterhead/signed by insured) agreeing to remain with existing broker, was the case not-processed/new underwriter advised/documentation noted in PAS?"
+Auto,LETTER OF AUTHORITY,Data Entry & Process,"If no reply received in seven days, was a ticket submitted to have IT update the broker code in PAS/ACRE?"
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Was a $0 codeblock completed correctly for the broker transfer?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Was the new underwriter advised of the broker transfer?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Was all documentation uploaded correctly to SharePoint (using proper naming conventions)?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,"Was updated documentation (dec page, vehicle schedule, and liability certificates) sent to document delivery?"
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Were prints ordered appropriately?
+Auto,LETTER OF AUTHORITY,Data Entry & Process,Was the case sent to document delivery using the correct document generation status?
+Auto,LETTER OF AUTHORITY,System & Statistical,Was appropriate full documentation added describing the transaction?
+Property,renewal prep,Risk Assessment,Were underwriter instructions acted on correctly?
+Property,renewal prep,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,renewal prep,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,renewal prep,Data Entry & Process,Were related cases with earlier effective dates escalated prior to renewal prep?
+Property,renewal prep,Data Entry & Process,"Was subjectivity checked, are we within capacity?"
+Property,renewal prep,Data Entry & Process,Were there any outstanding abeyances?
+Property,renewal prep,Data Entry & Process,Are buildings insured to value?
+Property,renewal prep,Data Entry & Process,Has data clean up been completed?
+Property,renewal prep,Data Entry & Process,Has A/CLOC been updated?
+Property,renewal prep,Data Entry & Process,Were cross reference policies noted appropriately?
+Property,renewal prep,System & Statistical,Was appropriate full documentation added describing the transaction on ECOM?
+Property,RENEWAL,Risk Assessment,Were underwriter instructions acted on correctly?
+Property,RENEWAL,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,RENEWAL,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,RENEWAL,Data Entry & Process,Were related cases with earlier effective dates escalated prior to renewal issuance?
+Property,RENEWAL,Data Entry & Process,Was the renewal issued at the correct annual premium?
+Property,RENEWAL,Data Entry & Process,Was the renewal issued on the correct payment plan?
+Property,RENEWAL,Data Entry & Process,Was the renewal issued as per Underwriters quote?
+Property,RENEWAL,System & Statistical,Was appropriate full documentation added describing the transaction?
+Property,RENEWAL,System & Statistical,Is A/CLOC information correct?
+Property,RENEWAL,System & Statistical,Have the correct IBC codes been used as provided by the UW?
+Property,POLICY CHANGE,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Property,POLICY CHANGE,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,POLICY CHANGE,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,POLICY CHANGE,Data Entry & Process,Were MVRS ordered or entered manually?
+Property,POLICY CHANGE,Data Entry & Process,Were the appropriate referrals made to the underwriter?
+Property,POLICY CHANGE,Data Entry & Process,"Was the data entered correctly into ECOM (Building details, Wordings)?"
+Property,POLICY CHANGE,Data Entry & Process,Were the appropriate endorsements added and premiums charged?
+Property,POLICY CHANGE,Data Entry & Process,Was the appropriate coverage added or removed?
+Property,POLICY CHANGE,Data Entry & Process,Were all interests shown appropriately on the policy?
+Property,POLICY CHANGE,Data Entry & Process,Were related cases processed in their respective order of effective dates?
+Property,POLICY CHANGE,System & Statistical,Was appropriate full documentation added describing the transaction on ECOM?
+Property,POLICY CHANGE,System & Statistical,"If location information was modified, was A/CLOC information entered correctly?"
+Property,NEW BUSINESS,Risk Assessment,Were underwriter instructions acted on correctly?
+Property,NEW BUSINESS,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,NEW BUSINESS,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,NEW BUSINESS,Data Entry & Process,Was the policy issued at the correct annual premium?
+Property,NEW BUSINESS,Data Entry & Process,Was the PAC/Direct Bill account created correctly?
+Property,NEW BUSINESS,Data Entry & Process,Was the policy issued on the correct payment plan?
+Property,NEW BUSINESS,Data Entry & Process,Was the correct effective date used?
+Property,NEW BUSINESS,Data Entry & Process,"Were the correct notes in the Coverage Detail (C2) screens used? (CEF, MPF, Installation Floater, etc.)"
+Property,NEW BUSINESS,Data Entry & Process,Was an abeyance set for any outstanding documents?
+Property,NEW BUSINESS,Data Entry & Process,Was the policy issued according to Underwriters quote?
+Property,NEW BUSINESS,System & Statistical,Was appropriate full documentation added describing the transaction on ECOM?
+Property,NEW BUSINESS,System & Statistical,Is A/CLOC information correct?
+Property,NEW BUSINESS,System & Statistical,Have the correct IBC codes been used as provided by the UW?
+Property,CERTIFICATE OF INSURANCE – NEEDED,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Property,CERTIFICATE OF INSURANCE – NEEDED,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,CERTIFICATE OF INSURANCE – NEEDED,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Were the appropriate referrals made to the underwriter?
+Property,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the correct COI template used?
+Property,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,"Was all data entered correctly (effective dates, certificate holder, notice of cancellation, any special wording)"
+Property,CERTIFICATE OF INSURANCE – NEEDED,Data Entry & Process,Was the certificate of insurance emailed to the broker as a PDF?
+Property,CERTIFICATE OF INSURANCE – NEEDED,System & Statistical,Was appropriate full documentation added describing the COI?
+Property,CANCELLATION,Risk Assessment,Were underwriter/broker instructions acted on correctly?
+Property,CANCELLATION,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,CANCELLATION,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,CANCELLATION,Data Entry & Process,Were open policy changes with effective dates prior to cancellation processed before the cancellation?
+Property,CANCELLATION,Data Entry & Process,"Were appropriate referrals made to the underwriter (requests to cancel accounts over $10k, requests to backdate cancellation, requests for pro-rata cancellation when not warranted, requests for flat cancellation more than 30 days after renewal, requests for cancellation effective the same date as date of loss on a claim)?"
+Property,CANCELLATION,Data Entry & Process,"Was appropriate documentation received prior to processing the cancellation (signed LPV, returned policy documents, notification from CAC)?"
+Property,CANCELLATION,Data Entry & Process,"Was the appropriate method of cancellation applied (short-rate, pro-rata, flat)?"
+Property,CANCELLATION,Data Entry & Process,"Was the correct documentation sent to the broker (cancellation dec page, advice of return premium, registered letter)?"
+Property,CANCELLATION,Data Entry & Process,Were any necessary registered letters sent to lessors and lienholders?
+Property,CANCELLATION,System & Statistical,Was the correct reason for cancellation selected on ECOM?
+Property,LETTER OF EXPERIENCE,Risk Assessment,Were underwriter/broker instructions acted on correctly?
+Property,LETTER OF EXPERIENCE,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,LETTER OF EXPERIENCE,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,LETTER OF EXPERIENCE,Data Entry & Process,Was the correct LOE template used?
+Property,LETTER OF EXPERIENCE,Data Entry & Process,Was the LOE addressed and dated correctly?
+Property,LETTER OF EXPERIENCE,Data Entry & Process,"Was the policy information entered correctly (correct policy number, named insured/driver, and effective/expiry dates)?"
+Property,LETTER OF EXPERIENCE,Data Entry & Process,Were all losses entered correctly?
+Property,LETTER OF EXPERIENCE,Data Entry & Process,Was the LOE emailed to the broker as a PDF?
+Property,LETTER OF EXPERIENCE,System & Statistical,Was appropriate full documentation added describing the transaction?
+Property,LETTER OF AUTHORITY,Risk Assessment,Were broker/underwriter instructions acted on correctly?
+Property,LETTER OF AUTHORITY,Authorities,"Was the transaction within the user’s authority? If not, were appropriate approvals obtained?"
+Property,LETTER OF AUTHORITY,Service Level Agreements,"When the processor took control of the case, was it handled in an appropriate amount of time?"
+Property,LETTER OF AUTHORITY,Data Entry & Process,Were related policy change cases processed in their respective order of effective date?
+Property,LETTER OF AUTHORITY,Data Entry & Process,Was the proper documentation obtained for broker transfer (LOA on client letterhead/signed by insured)?
+Property,LETTER OF AUTHORITY,Data Entry & Process,Were notification letters sent to the existing and newly appointed brokers with seven days’ notice provided?
+Property,LETTER OF AUTHORITY,Data Entry & Process,"If the existing broker replied with a letter (on client letterhead/signed by insured) agreeing to remain with existing broker, was the case not-processed/new underwriter advised/documentation noted in ECOM?"
+Property,LETTER OF AUTHORITY,Data Entry & Process,Was the new underwriter advised of the broker transfer?
+Property,LETTER OF AUTHORITY,Data Entry & Process,Was the broker code change completed on ECOM?
+Property,LETTER OF AUTHORITY,System & Statistical,Was appropriate full documentation added describing the transaction?

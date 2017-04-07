@@ -294,7 +294,7 @@ if(isset($_GET['form_id'])){
 								
 					 <div id="eventForm" class="section">
 							<label for="date">Date Reviewed</label>
-								<div class="input-group date" id="datePicker" <?php if ($is_locked=="readonly"){echo "disabled='disabled'";}?>>
+								<div class="input-group date" id="date_reviewed" <?php if ($is_locked=="readonly"){echo "disabled='disabled'";}?>>
 									<input  data-format="YYYY-MM-DD hh:mm"  class="form-control" type="text" id="date_reviewed" name="date_reviewed" <?php echo $is_locked ;?> />
 									<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
 								</div>
@@ -304,7 +304,7 @@ if(isset($_GET['form_id'])){
 						
 					<script>
 							$(document).ready(function() {
-								$('#datePicker').datetimepicker({
+								$('#date_reviewed').datetimepicker({
 										//format:'yyyy-mm-dd'
 										defaultDate: "<?php echo $opened['date_reviewed'];?>"
 										//console.log($('#datePicker').datepicker('getDate'));
@@ -442,10 +442,13 @@ if(isset($_GET['form_id'])){
 				</select>
 						
 <!-- Include Bootstrap Datepicker -->
-		
+				<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.min.css" />
+					<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
+					<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+					
 				 <div id="eventForm" class="section">
 					<label for="date">Effective Date</label>
-						<div class="input-group date" id="effective_date" <?php if ($is_locked=="readonly"){echo "disabled='disabled'";}?>>
+						<div class="input-group date" id="" <?php if ($is_locked=="readonly"){echo "disabled='disabled'";}?>>
 							<input  data-format="YYYY-MM-DD"  class="form-control" type="text" id="effective_date" name="effective_date" <?php echo $is_locked ;?> />
 							<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
 						</div>
@@ -504,7 +507,7 @@ if(isset($_GET['form_id'])){
 	<label class="control-label" ><?php echo strtoupper($current_section[section])?></label>
 	<br>
 	<?php 
-	if (isset($_GET['form_id'])){
+	if (isset($_GET['form_id'])&&($_GET['form_id']!="")){
 	$q1="SELECT * FROM review WHERE form_id = '$form_id' AND section = '$current_section[section]' ";	
 	}else{
 	$q1="SELECT * FROM question WHERE product_type = '$url_prodtype' AND transaction_type='$url_trantype' AND section='$current_section[section]' ";	
@@ -535,10 +538,11 @@ if(isset($_GET['form_id'])){
 	
 	<?php
 		$var_result = "questionid_".$question_id."_result";
+		error_log ("current question id is ".$question_id." and current qustion result is : ". $current_question['result']);
 		if ($current_question['result']=='Yes'){$r1="selected";$bc=$green;}else{$r1="";};
 		if ($current_question['result']=='No') {$r2="selected";$bc=$red;}else{$r2="";};
 		if ($current_question['result']=='N/A'){$r3="selected";$bc=$white;}else{$r3="";};
-		if ($current_question['result']=='Null'){$r3="selected";$bc="yellow";}else{$r3="";};
+		if ($current_question['result']=='Null'){$r4="selected";$bc="yellow";}else{$r4="";};
 		//$var_score = strtolower($current_section[section]).'_score'."_".$i;		
 		$var_score = "questionid_".$question_id."_score";	
 		$var_obs = "questionid_".$question_id."_observation";	
@@ -699,9 +703,11 @@ if(isset($_GET['form_id'])){
 				$authority_level=mysqli_real_escape_string($dbc,$_POST['authority_level']);
 				$effective_date= mysqli_real_escape_string($dbc, $_POST['effective_date']);
 				$date_created= time();
+				$date_modified= time();
 				error_log("date_created".$date_created);
-				$form_id =$date_created;
-				
+				/* if (!isset($_GET['form_id'])){
+					$form_id =$date_created;
+				}	 */							
 				$question_id_array = array();
 				$result_array = array();
 				foreach($_POST as $key => $value) {
@@ -732,47 +738,50 @@ if(isset($_GET['form_id'])){
 				
 				
 			
-								
-				if (!isset($_POST['form_id'])){
-					$q = "UPDATE review SET 
-					leader_id='$leader', 
-					emp_id='$employee', 
-					is_locked='$is_locked',
-					date='$date', 
-					title='$title',
-					calls_handle_ind='$calls_handle_ind', 
-					calls_handle_team='$calls_handle_team',
-					talk_time_ind = '$talk_time_ind',
-					talk_time_team = '$talk_time_team',
-					handle_time_ind = '$handle_time_ind',
-					handle_time_team = '$handle_time_team',
-					not_ready_ind = '$not_ready_ind',
-					not_ready_team = '$not_ready_team',
-					com_call = '$com_call',
-					case_close_ind = '$case_close_ind',
-					case_close_team = '$case_close_team',
-					case_touch_ind = '$case_touch_ind',
-					case_touch_team = '$case_touch_team',
-					tt_ind = '$tt_ind',
-					tt_team = '$tt_team',
-					prod_hour_ind = '$prod_hour_ind',
-					prod_hour_team = '$prod_hour_team',
-					process_com = '$process_com',
-					log_on_off= '$log_on_off',
-					break = '$break',
-					attendance = '$attendance',
-					sche_com= '$sche_com',
-					trans_rev_ind = '$trans_rev_ind',
-					trans_rev_team = '$trans_rev_team',
-					other_qua_ind = '$other_qua_ind',
-					other_qua_team = '$other_qua_team',
-					call_rev_ind = '$call_rev_ind',
-					call_rev_team = '$call_rev_team',
-					qua_com= '$qua_com',
-					well='$well', 
-					not_well='$not_well', 
-					next_employee='$next_employee',
-					next_leader='$next_leader' WHERE id= $_POST[page_id]";
+					error_log("Before Get:" . $_POST['form_id']);			
+				if (isset($_POST['form_id']) && $_POST['form_id'] != ""){
+					$update_form_id = $_POST['form_id'];
+					error_log("After isset");
+					for ($m=0;$m<sizeof($question_id_array);$m=$m+3){
+						 error_log("m value is".$m);
+						 $question_id=$result_array[$m]['id'];
+						 $q1="SELECT question_name, section FROM question WHERE ID='$question_id'";
+						 $r1 = mysqli_query($dbc, $q1);
+						 $tt = mysqli_fetch_array($r1);
+						 $question_name=$tt[0];
+						 $section=$tt[1];
+						 
+						 $question_result=$result_array[$m]['value'];
+						 $question_comment=$result_array[$m+2]['value'];
+						 
+						$q = "UPDATE review SET 
+						is_locked='$is_locked',
+						reviewee_name='$reviewee_name', 
+						reviewee_id='$reviewee_id',
+						leader_name='$leader_name',
+						leader_id='$leader_id',
+						reviewer_name='$reviewer_name',
+						reviewer_id='$reviewer_id',
+						date_reviewed='$date_reviewed',
+						case_number='$case_number',
+						policy_number='$policy_number',
+						transaction_type='$transaction_type',
+						product_type='$product_type',
+						region='$region',
+						authority_level='$authority_level',
+						effective_date='$effective_date',
+						section='$section',
+						question_id='$question_id',
+						question_name='$question_name',
+						result='$question_result',
+						comment='$question_comment',
+						date_modified='$date_modified'
+						WHERE form_id= '$update_form_id' AND question_id='$question_id'" ;
+						
+						error_log($q);
+						$r = mysqli_query($dbc, $q);
+					}
+					
 				}else {
 					//error_log("submit else loop, insert new");
 					 for ($m=0;$m<sizeof($question_id_array);$m=$m+3){
@@ -812,7 +821,7 @@ if(isset($_GET['form_id'])){
 						result,
 						comment,
 						date_created) 
-				VALUES ('$form_id',
+				VALUES ('$date_created',
 						'$reviewee_name',
 						'$reviewee_id',
 						'$leader_name',
@@ -835,7 +844,8 @@ if(isset($_GET['form_id'])){
 						'$date_created')"; 
 						error_log($q);
 						$r = mysqli_query($dbc, $q);
-					 }
+					}
+					 
 						
 				}
 				
@@ -1010,7 +1020,7 @@ if(isset($_GET['form_id'])){
 		
 						 // if the page is already existed and opened, then show only that record.
 							if (isset($_GET['form_id'])){
-								$form_id = $_GET['form_id'];
+								//$form_id = $_GET['form_id'];
 								$q = "SELECT * FROM review WHERE form_id = '$form_id'";
 							
 							
