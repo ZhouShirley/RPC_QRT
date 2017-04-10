@@ -1,7 +1,7 @@
 <?PHP
 
 
-$dbc = mysqli_connect('eco71147','shirley','','rpc_qrt') or die('Could not connect because:'.mysqli_connect_error());
+$dbc = mysqli_connect('eco72648','shirley','','rpc_qrt') or die('Could not connect because:'.mysqli_connect_error());
 
 
 $fp = fopen('C:\xampp\htdocs\rpc_qrt\admin\import_to_mysql\question.csv','r') or die("can't open file");

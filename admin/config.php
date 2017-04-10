@@ -8,7 +8,7 @@
 /* DB Name
  * Enter the name of your database below.
  */
-define ('DB_HOST',"eco71147");
+define ('DB_HOST',"eco72648");
 define('DB_NAME', 'rpc_qrt');
 
 /* DB Username

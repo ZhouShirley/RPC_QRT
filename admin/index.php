@@ -157,6 +157,7 @@ if(isset($_GET['form_id'])){
 			<form id = "main_form" action="index.php" method="POST" role="form">
 				
 				<div class="section">
+				
 					<label class ="form-group" for="title">Page ID</label>
 					<input  class="form-control" type="text" name="ID" id="ID"value="<?php echo $opened['ID'];?>" placeholder="" readonly> 
 					<label class ="form-group" for="title">Form ID</label>
@@ -165,7 +166,7 @@ if(isset($_GET['form_id'])){
 					<label class ="form-group" for="title">Review Template Type <span class="mandatory">***</span></label>
 					<input  class="form-control" type="" name="review_template" id="review_template" value=
 					"<?php echo $review_template?>" placeholder="review template" readonly> 
-				
+		
 				<div class="section">
 				<label  class ="form-group" for="reviewee_name">Reviewee Name <span class="mandatory">***</span></label>
 				<!--h2 class ="form-group" for="title">Leader Name</h2> -->
@@ -533,8 +534,8 @@ if(isset($_GET['form_id'])){
 	
 	<label class="control-label" ><?php echo $current_question['question_name'];?></label>
 	<br>
-	<label>Question ID <?php echo $question_id;?></label>
-	<input  type="" class="form-control" type="text" name="<?php echo $question_id;?>" id = "<?php echo $question_id;?>" value="<?php echo $current_question['question_id'];?>"  placeholder="question id" readonly >
+	<label>Question ID </label>
+	<input  type="hidden" class="form-control" type="text" name="<?php echo $question_id;?>" id = "<?php echo $question_id;?>" value="<?php echo $current_question['question_id'];?>"  placeholder="question id" readonly >
 	
 	<?php
 		$var_result = "questionid_".$question_id."_result";
@@ -702,6 +703,7 @@ if(isset($_GET['form_id'])){
 				$region= mysqli_real_escape_string($dbc, $_POST['region']);
 				$authority_level=mysqli_real_escape_string($dbc,$_POST['authority_level']);
 				$effective_date= mysqli_real_escape_string($dbc, $_POST['effective_date']);
+				$overall_comments=mysqli_real_escape_string($dbc, $_POST['overall_comments']);
 				$date_created= time();
 				$date_modified= time();
 				error_log("date_created".$date_created);
@@ -775,6 +777,7 @@ if(isset($_GET['form_id'])){
 						question_name='$question_name',
 						result='$question_result',
 						comment='$question_comment',
+						overall_comments = '$overall_comments',
 						date_modified='$date_modified'
 						WHERE form_id= '$update_form_id' AND question_id='$question_id'" ;
 						
@@ -820,6 +823,7 @@ if(isset($_GET['form_id'])){
 						question_name,
 						result,
 						comment,
+						overall_comments,
 						date_created) 
 				VALUES ('$date_created',
 						'$reviewee_name',
@@ -841,6 +845,7 @@ if(isset($_GET['form_id'])){
 						'$question_name',
 						'$question_result',
 						'$question_comment',
+						'$overall_comments',
 						'$date_created')"; 
 						error_log($q);
 						$r = mysqli_query($dbc, $q);
@@ -922,7 +927,7 @@ if(isset($_GET['form_id'])){
 			
 <!--Review Search Panel -->			
 			<div class ="list-group">
-			<h4 class="list-group-item-heading" >Please Select the Retrieval Criterial (Only returns the most recent 4 months' records.)</h4>
+			<h4 class="list-group-item-heading" >Please Select the Retrieval Criterial</h4>
 			
 			<label>Product Type</label>
 			<select class="form-control" name="search_product_type" id="search_product_type">

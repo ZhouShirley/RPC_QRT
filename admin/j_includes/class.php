@@ -1,6 +1,6 @@
 <?php
 require_once('load.php');
-$link = mysqli_connect('eco71147',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
+$link = mysqli_connect('eco72648',DB_USER,DB_PASS,DB_NAME) or die('Could not connect because:'.mysqli_connect_error());
 // Our main class
 if(!class_exists('Joomba')){
 	class Joomba {
